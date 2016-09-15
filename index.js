@@ -10,8 +10,9 @@
         {"name": "Madoka", "desc": "Madoka and her happy <del>tree</del> friends", "file": "kanpai-madoka.as"}
     ];
 
-    if (module && typeof module === "object") {
-        module.exports = testScripts;
-    }
     return testScripts;
 })();
+
+if (module && typeof module === "object") {
+    module.exports = testScripts;
+}
