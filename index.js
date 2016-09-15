@@ -9,7 +9,7 @@ var testScripts = [
     {"name": "Madoka", "desc": "Madoka and her happy <del>tree</del> friends", "file": "kanpai-madoka.as"}
 ];
 
-if (module && typeof module === "object") {
+if (typeof module === "object" && module) {
     module.exports = testScripts;
 } else {
     // So, no strict mode because we are going to eval this function.
