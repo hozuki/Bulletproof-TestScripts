@@ -55318,8 +55318,7 @@ function setWorldLine(cmt){	var gf1=$.createGlowFilter(0x003399,0.9,16,16,2,1,fa
 a.graphics.beginFill(0xffffff);
 a.graphics.drawRect(0,0,950,484);
 a.graphics.endFill();
-
-}</d>
+</d>
 <d p="18.374000549316,8,25,16777215,1355909135,2,7f7e4d48,159970180">var a = $.createShape({lifeTime:40,motionGroup:[
 	{alpha:{ fromValue:0, toValue:0.8,lifeTime:0.3}},
 	{alpha:{fromValue:0.8,toValue:1,lifeTime:1}}
