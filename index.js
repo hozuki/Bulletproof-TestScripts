@@ -6,7 +6,8 @@ var testScripts = [
     {"name": "Blank", "desc": "Blank", file: ""},
     {"name": "3D-Ball", "desc": "3D ball", "file": "3d-ball.as"},
     {"name": "GreenDam", "desc": "Green Dam Musume", "file": "kanpai-green-dam.as"},
-    {"name": "Madoka", "desc": "Madoka and her happy <del>tree</del> friends", "file": "kanpai-madoka.as"}
+    {"name": "Madoka", "desc": "Madoka and her happy <del>tree</del> friends", "file": "kanpai-madoka.as"},
+    {"name": "Kanpai", "desc": "BiliBili Kanpai!", "file": "kanpai-full.xml"}
 ];
 
 if (typeof module === "object" && module) {
