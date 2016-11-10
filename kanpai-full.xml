@@ -54093,7 +54093,7 @@ alpha:{fromValue:0,toValue:0.2,lifeTime:1}}
 <d p="58.403999328613,8,25,16777215,1355845770,2,7f7e4d48,159872177">/* 还记得一切开始的时候 */
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(112,319,317)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(112,319,317)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -54126,7 +54126,7 @@ DanmakuAlpha('还记得一切开始的时候',20,316,6.5,120,50,1,30,100,1,0.6);
 <d p="64.039001464844,8,25,16777215,1355845933,2,7f7e4d48,159872664">/* 我们还能 简单地微笑 */
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(312,219,117)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(312,219,117)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -54159,7 +54159,7 @@ DanmakuAlpha('我们还能 简单地微笑',20,316,6.5,120,50,1,30,100,1,0.6);</
 <d p="69.415000915527,8,25,16777215,1355846131,2,7f7e4d48,159873243">/* 对和错 曾执着地计较*/
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(212,309,117)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(212,309,117)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -54192,7 +54192,7 @@ DanmakuAlpha('对和错 曾执着地计较',20,316,6.5,120,50,1,30,100,1,0.6);</
 <d p="74.958999633789,8,25,16777215,1355846253,2,7f7e4d48,159873550">/* 不曾后悔 笨蛋般的骄傲*/
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(0,0,127)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(0,0,127)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -54225,7 +54225,7 @@ DanmakuAlpha('不曾后悔 笨蛋般的骄傲',20,316,6.5,120,50,1,30,100,1,0.6)
 <d p="80,8,25,16777215,1355847270,2,7f7e4d48,159876361">/* 可是那一天 终究躲不掉*/
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(255,182,193)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(255,182,193)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -54258,7 +54258,7 @@ DanmakuAlpha('可是那一天 终究躲不掉',20,316,14.5,120,50,1,30,100,1,0.6
 <d p="86.564002990723,8,25,16777215,1355847411,2,7f7e4d48,159876711">/* LA~LA~LA~LA~*/
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(245,245,245)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(245,245,245)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -54291,7 +54291,7 @@ DanmakuAlpha('LA~LA~LA~LA~',20,316,8.5,120,50,1,30,100,1,0.6);</d>
 <d p="93.783996582031,8,25,16777215,1355848051,2,7f7e4d48,159878288">/* 这世界 最真实的面貌*/
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(105,105,105)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(105,105,105)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -54324,7 +54324,7 @@ DanmakuAlpha('    最真实的面貌',20,316,22,120,50,1,30,100,1,0.6);</d>
 <d p="100.57900238037,8,25,16777215,1355848190,2,7f7e4d48,159878599">/* 学会装作镇定*/
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(192,192,192)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(192,192,192)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -54357,7 +54357,7 @@ DanmakuAlpha('学会装作镇定',20,316,8,120,50,1,30,100,1,0.6);</d>
 <d p="100.78099822998,8,25,16777215,1355848247,2,7f7e4d48,159878713">/* 却不断颤抖*/
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(192,192,192)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(192,192,192)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -54391,7 +54391,7 @@ DanmakuAlpha('
 <d p="91.230003356934,8,25,16777215,1355848395,2,7f7e4d48,159879029">/* 这世界 最真实的面貌*/
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(105,105,105)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(105,105,105)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -54424,7 +54424,7 @@ DanmakuAlpha('这世界 ',20,316,22,120,50,1,30,100,1,0.6);</d>
 <d p="103.79000091553,8,25,16777215,1355849210,2,7f7e4d48,159880597">/*想起远方的挚友*/
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(178,34,34)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(178,34,34)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -54457,7 +54457,7 @@ DanmakuAlpha('想起远方的挚友',20,316,6,120,50,1,30,100,1,0.6);</d>
 <d p="106.46099853516,8,25,16777215,1355849446,2,7f7e4d48,159881042">/*来到这个家 学会微笑*/
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(255,215,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(255,215,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -54490,7 +54490,7 @@ DanmakuAlpha('  来到这个家 学会微笑',20,316,6,120,50,1,30,100,1,0.6);</
 <d p="114.82199859619,8,25,16777215,1355849934,2,7f7e4d48,159881948">/*干杯 大笑着送走烦恼*/
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(248,248,255)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(248,248,255)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -54523,7 +54523,7 @@ DanmakuAlpha('  干杯 大笑着送走烦恼',20,316,6,120,50,1,30,100,1,0.6);</
 <d p="125.5,8,25,16777215,1355850286,2,7f7e4d48,159882578">/*22亿种希望 33亿份爱*/
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(65,105,225)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(65,105,225)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -54556,7 +54556,7 @@ DanmakuAlpha(' 22亿种希望 33亿份爱',20,316,6,120,50,1,30,100,1,0.6);</d>
 <d p="119.9049987793,8,25,16777215,1355850337,2,7f7e4d48,159882641">/*干杯 不再一个人咆哮*/
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(240,128,128)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(240,128,128)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -54589,7 +54589,7 @@ DanmakuAlpha('  干杯 不再一个人咆哮',20,316,6,120,50,1,30,100,1,0.6);</
 <d p="130.73899841309,8,25,16777215,1355850535,2,7f7e4d48,159882926">/*大丈夫だ、问题ない*/
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(32,178,170)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(32,178,170)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -54622,7 +54622,7 @@ DanmakuAlpha('   大丈夫だ、问题ない',20,316,6,120,50,1,30,100,1,0.6); <
 <d p="134.57200622559,8,25,16777215,1355851375,2,7f7e4d48,159884129">/*让我们干杯*/
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(135,206,235)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(135,206,235)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -54656,7 +54656,7 @@ DanmakuAlpha('   让我们干杯',70,176,6,120,50,1,30,100,1,0.6);</d>
 
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(255,99,71)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(255,99,71)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -54691,7 +54691,7 @@ DanmakuAlpha('总会有无法选择的时候',20,316,6,120,50,1,30,100,1,0.6);</
 
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(173,255,47)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(173,255,47)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -54726,7 +54726,7 @@ DanmakuAlpha('  就算妥协也坚持到最后',20,316,6,120,50,1,30,100,1,0.6);
 
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(205,92,92)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(205,92,92)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -54761,7 +54761,7 @@ DanmakuAlpha('努力了不一定有回报',20,316,6,120,50,1,30,100,1,0.6);</d>
 
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(224,255,255)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(224,255,255)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -54796,7 +54796,7 @@ DanmakuAlpha(' 终于麻木了 淡定的微笑',20,316,6,120,50,1,30,100,1,0.6);
 
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(220,220,220)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(220,220,220)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -54831,7 +54831,7 @@ DanmakuAlpha(' 终于把自己 内心',70,336,6,120,50,1,30,100,1,0.6);</d>
 
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(220,220,220)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(220,220,220)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -54866,7 +54866,7 @@ DanmakuAlpha(' 任现实',170,336,6,120,50,1,30,100,1,0.6);</d>
 
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(220,220,220)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(220,220,220)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -54901,7 +54901,7 @@ DanmakuAlpha('宰割灵魂的自由',110,336,6,120,50,1,30,100,1,0.6);</d>
 
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(238,130,238)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(238,130,238)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -54936,7 +54936,7 @@ DanmakuAlpha(' 仅存的期待 有谁来戳破',50,336,6,120,50,1,30,100,1,0.6);
 
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(220,220,220)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(220,220,220)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -54971,7 +54971,7 @@ DanmakuAlpha(' 剃成光头',140,336,6,120,50,1,30,100,1,0.6);</d>
 
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(230,230,250)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(230,230,250)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -55007,7 +55007,7 @@ DanmakuAlpha(' 这茫然自失的日常',80,336,6,120,50,1,30,100,1,0.6);
 
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(95,158,160)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(95,158,160)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -55044,7 +55044,7 @@ DanmakuAlpha(' 内心的呐喊 有谁能听到',50,336,6,120,50,1,30,100,1,0.6);
 
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(0,0,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(0,0,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -55082,7 +55082,7 @@ DanmakuAlpha(' 干杯 累了便停下休息',70,336,6,120,50,1,30,100,1,0.6);
 
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(240,248,255)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(240,248,255)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -55120,7 +55120,7 @@ DanmakuAlpha(' 干杯 发现身边的奇迹',70,336,6,120,50,1,30,100,1,0.6);</d
 
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(255,0,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(255,0,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -55158,7 +55158,7 @@ DanmakuAlpha(' 一起侵略这地球 一起改写世界 ',10,336,6,120,50,1,30,1
 
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(255,255,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(255,255,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -55196,7 +55196,7 @@ DanmakuAlpha(' BILIBIL 元气的电力 ',20,336,6,120,50,1,30,100,1,0.6);</d>
 
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(255,0,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(255,0,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -55231,7 +55231,7 @@ setFilter(cmt);
 DanmakuAlpha('干杯         ',70,336,6,120,50,1,30,100,1,0.6);</d>
 <d p="224.11599731445,8,25,16777215,1355885432,2,7f7e4d48,159909222">function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(255,255,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(255,255,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -55267,7 +55267,7 @@ DanmakuAlpha('    就算曾经是劲敌 ',70,336,6,120,50,1,30,100,1,0.6);</d>
 <d p="234.26699829102,8,25,16777215,1355885763,2,7f7e4d48,159909708">/*22亿种希望 33亿份爱*/
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(65,105,225)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(65,105,225)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -55326,9 +55326,7 @@ a.graphics.endFill();
 	]});
 a.graphics.beginFill(0x000000);
 a.graphics.drawRect(0,0,950,484);
-a.graphics.endFill();
-
-}</d>
+a.graphics.endFill();</d>
 <d p="0.67799997329712,8,25,16777215,1355930755,2,7f7e4d48,160055402">/*坑爹进度条*/
 var bar=$.createShape({x:80,y:384/2+10,lifeTime:5});
 var i=0;
@@ -55550,7 +55548,7 @@ interval(function(){
 
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(0,100,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(0,100,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="黑体"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -55592,7 +55590,7 @@ DanmakuAlpha('2009.6.26 MIKUFANS创立',50,336,6,120,20,1,20,100,1,0.6);
 
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(0,100,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(0,100,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="黑体"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -55634,7 +55632,7 @@ DanmakuAlpha('  2010.1.24 正式更名为BILIBILI',50,336,6,120,20,1,17,100,1,0.
 
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(0,100,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(0,100,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="黑体"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -55676,7 +55674,7 @@ DanmakuAlpha('2010.2.14 10年BILIBILI拜年祭',20,336,6,120,20,1,20,100,1,0.6);
 
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(0,100,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(0,100,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="黑体"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -55718,7 +55716,7 @@ DanmakuAlpha('2010.5.19 BILIBILI Beta2夏启动',40,336,6,120,20,1,16,100,1,0.6)
 
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(0,100,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(0,100,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="黑体"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -55760,7 +55758,7 @@ DanmakuAlpha('2010.8.16 22娘和33娘诞生',40,336,6,120,20,1,22,100,1,0.6);
 
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(0,100,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(0,100,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="黑体"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -55802,7 +55800,7 @@ DanmakuAlpha('2010.11.26 大量外国游客涌入',60,336,6,120,20,1,17,100,1,0.
 
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(0,100,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(0,100,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="黑体"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -55844,7 +55842,7 @@ DanmakuAlpha('2011.1.4 协作乡正式上线',60,336,6,120,20,1,17,100,1,0.6);
 
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(0,100,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(0,100,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="黑体"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -55881,7 +55879,7 @@ DanmakuAlpha('2011.2.2 2011年拜年祭',60,336,6,120,20,1,17,100,1,0.6);</d>
 
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(0,100,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(0,100,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="黑体"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -55918,7 +55916,7 @@ DanmakuAlpha('2012.1.22 2012年拜年祭',90,336,6,120,20,1,21,100,1,0.6);</d>
 
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(0,100,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(0,100,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="黑体"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
@@ -56171,7 +56169,7 @@ a.graphics.endFill();
 
 function setFilter(cmt)
 {
-	var gf1=$.createGlowFilter(Utils.rgb(0,0,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,ture/*是否为内侧发光*/,false/*是否具有挖空效果*/);
+	var gf1=$.createGlowFilter(Utils.rgb(0,0,0)/*光晕颜色*/,0.5/*Alpha*/,7/*水平模糊量*/,7/*垂直模糊量*/,4/*印记或跨页的强度*/,3/*应用滤镜的次数*/,true/*是否为内侧发光*/,false/*是否具有挖空效果*/);
 	var cmtf = cmt.getTextFormat(0,1);cmtf.bold=false/*粗体*/;cmtf.font="幼圆"/*字体*/;cmt.setTextFormat(cmtf,0,1);cmt.filters=[gf1];
 }
 /* 逐条执行-渐隐 */
