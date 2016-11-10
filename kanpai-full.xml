@@ -56053,9 +56053,7 @@ interval(function(){
 	]});
 a.graphics.beginFill(0xffffff);
 a.graphics.drawRect(0,0,950,484);
-a.graphics.endFill();
-
-}</d>
+a.graphics.endFill();</d>
 <d p="333.3210144043,8,25,16777215,1355992958,2,7f7e4d48,160183578">function rainbow(txt,fz,col,xp){
 var cmt=$.createComment(txt,{x:xp,y:384/2-fz/1.8,color:col,lifeTime:5,motionGroup:[
 {alpha:{fromValue:0,toValue:1,lifeTime:2}},
