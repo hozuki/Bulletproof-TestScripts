@@ -6,7 +6,7 @@
 <maxlimit>1000</maxlimit>
 <source>k-v</source>
 <d p="10,8,25,16777215,1355413194,2,7f7e4d48,158141509">/*干杯~*/
-var g = $.createShape({lifeTime:360,x:0,y:0});
+var g = $.createShape({lifeTime:36,x:0,y:0}); // 这个白色矩形遮住了后面所有东西，时间就调整为360->36好了
  g.graphics.beginFill(0xffffff);
  g.graphics.drawRect(0,0,540,383);
  g.graphics.endFill();</d>
