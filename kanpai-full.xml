@@ -6,8 +6,8 @@
 <maxlimit>1000</maxlimit>
 <source>k-v</source>
 <d p="10,8,25,16777215,1355413194,2,7f7e4d48,158141509">/*干杯~*/
-var g = $.createShape({lifeTime:360,x:0,y:0}); // 这个白色矩形遮住了后面所有东西，颜色就调整为0xffffff->0x7f7f7f好了
- g.graphics.beginFill(0x7f7f7f);
+var g = $.createShape({lifeTime:360,x:0,y:0});
+ g.graphics.beginFill(0xffffff);
  g.graphics.drawRect(0,0,540,383);
  g.graphics.endFill();</d>
 <d p="57.200000762939,8,25,16777215,1355413478,2,7f7e4d48,158142526">/*绿坝娘~和谐你*/
@@ -55974,8 +55974,8 @@ interval(function(){
 
 },10,20);</d>
 <d p="37.823001861572,8,25,16777215,1355938013,2,7f7e4d48,160072589">/*干杯~*/
-var g = $.createShape({lifeTime:360,x:0,y:0}); // 这个白色矩形遮住了后面所有东西，颜色就调整为0xffffff->0x7f7f7f好了
- g.graphics.beginFill(0x7f7f7f);
+var g = $.createShape({lifeTime:360,x:0,y:0});
+ g.graphics.beginFill(0xffffff);
  g.graphics.drawRect(0,0,540,383);
  g.graphics.endFill();</d>
 <d p="38.926998138428,8,25,16777215,1355938070,2,7f7e4d48,160072706">/*毛酱:爆炸效果EX·改*/
